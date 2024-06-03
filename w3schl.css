@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+
+}
+img{
+    height: 50px;
+    width: 60px;
+}
+.c1{
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+}
+input{
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+#searchbar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+.searchicon{
+margin-left: -10px;
+}
+
+#shi1{
+    margin-top: 18px;
+    margin-left: -30px;
+}
+#shi2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#shi3{
+    margin-left: 280px;
+    margin-top: 18px;
+    color: rgb(142, 109, 172);
+}
+#shi4{
+    margin-left: 90px;
+    margin-top: 18px;
+    color: rgb(142, 109, 172);
+}
+#shi5{
+    margin-left: 100px;
+    margin-top: 18px;
+    color: rgb(142, 109, 172);
+}
+.text{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -280px;
+    margin-top: 18px;
+    
+}
+.text p{
+    margin-left: 65px;
+}
+nav{
+    background-color: #282A35;
+    height: 35px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    margin-left: 30px;
+    
+}
+
+nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 28px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#Tutorial1{
+    background-color: rgb(227, 217, 217);
+    height: 620px;
+    width: 250px;
+    overflow: scroll;
+    display: none;
+
+}
+#Tutorial1 ul{
+    /* display: contents; */
+    color: black;
+    list-style: none;
+}
+
+#Tutorial1 ul li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Tutorial1 ul h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 27px;
+    margin-top:20px;
+}
+
+#HOME{
+    background-color: #04AA6D;
+    color: white;
+    
+}
+#a1{
+    background-color: #04AA6D;
+    border-radius: 10px;
+    color: white;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.log-in{
+    background-color: #d9eee1;
+    color: black;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    width: 95px;
+    display: flex;
+    margin-top: -12px;
+    margin-left: 110px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign-up{
+    background-color: #04AA6D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 40px;
+    width: 95px;
+    margin-top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    align-items: center;
+    margin-left: -168px;
+    display: flex;
+    justify-content: center;
+}
+/* .Tutorial{
+    display: none;
+} */
+#menu_bar{
+    background-color: #282A35;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 7px;
+}
+
+#icon156{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}
